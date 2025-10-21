@@ -60,3 +60,11 @@ git clone https://github.com/Mstandfest/JavaSwingDashboard.git
 * A helper class with static methods for file handling.
 * listeSpeichern() (saveList): Serializes the ArrayList<Double> and saves it to a file.
 * listeLaden() (loadList): Deserializes the data from the file and returns it as a new ArrayList<Double>.
+
+## Screenshots
+<img width="773" height="589" alt="image" src="https://github.com/user-attachments/assets/c0166e15-4969-44da-8661-ac627ed7bc72" />
+<img width="775" height="583" alt="image" src="https://github.com/user-attachments/assets/a236769e-1137-40f1-9fc2-885425759a67" />
+<img width="777" height="585" alt="image" src="https://github.com/user-attachments/assets/a4c21c45-ed24-43ef-a0f2-b2a2c60aec02" />
+<img width="778" height="587" alt="image" src="https://github.com/user-attachments/assets/ff222cf9-77f8-43e1-92f5-5f49589f68ae" />
+
+
