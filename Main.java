@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.util.logging.*;
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         final Logger LOGGER = Logger.getLogger(Main.class.getName());
         try {
             UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
