@@ -59,8 +59,8 @@ public class Dashboard extends JFrame {
 
         // 4. Haupt-Layout des Fensters festlegen und den ChartPanel hinzufügen
         setLayout(new BorderLayout(10, 10));
-        ChartPanel chartPanel = new ChartPanel(linienDiagramm); // NEU
-        add(chartPanel, BorderLayout.CENTER);            // GEÄNDERT
+        ChartPanel chartPanel = new ChartPanel(linienDiagramm); 
+        add(chartPanel, BorderLayout.CENTER);            
         add(inputPanel, BorderLayout.SOUTH);
         add(durchschnittsAnzeige, BorderLayout.NORTH);
 
@@ -186,3 +186,4 @@ public class Dashboard extends JFrame {
         button.setFont(new Font("Comic Sans MS", Font.BOLD, 16));
     }
 }
+
