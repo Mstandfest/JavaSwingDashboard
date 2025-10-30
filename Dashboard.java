@@ -139,7 +139,7 @@ public class Dashboard extends JFrame {
         // Die Serie einer Sammlung hinzufügen
         XYSeriesCollection dataset = new XYSeriesCollection(datenSerie);
 
-        // Das Diagramm mit der ChartFactory erstellen
+        // Das Diagramm erstellen
         linienDiagramm = ChartFactory.createXYLineChart(
                 "Werteverlauf",      // Titel des Diagramms
                 "Eingabe Nr.",       // X-Achsen-Beschriftung
@@ -172,7 +172,7 @@ public class Dashboard extends JFrame {
 
         // Diagramm-Daten aktualisieren
         datenSerie.clear();
-        // Alle Werte aus unserer Liste der Serie hinzufügen
+        // Alle Werte aus der Liste der Serie hinzufügen
         for (int i = 0; i < werte.size(); i++) {
             // Die X-Koordinate ist die Eingabenummer (1, 2, 3, ...), Y ist der Wert selbst
             datenSerie.add(i + 1, werte.get(i));
